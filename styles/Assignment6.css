@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+
+#createnew {
+    position: absolute;
+    background-color: white;
+    visibility: hidden;
+   width: 600px;
+}
+
+#update {
+    position: absolute;
+    background-color: white;
+    visibility: hidden;
+    width: 600px;
+}
+
+#delete {
+    position: absolute;
+    background-color: white;
+    visibility: hidden;
+    width: 600px;
+}
+
+#header {
+    background-color: #006400;
+}
+
+button {
+    width: 600px;
+    height: 50px;
+}
+
+#menu {
+    width 600px;
+    height: 150px;
+    align-content: center;
+}
+
+.example {
+    color: red;
+    font-style: italic;
+}

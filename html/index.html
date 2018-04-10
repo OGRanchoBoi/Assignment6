@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Module 6 Assignment</title>
+    <link rel ="stylesheet" type = "text/css" href="styles/Assignment6.css" />
+    <script src = "js/Assignment6.js"></script>
+</head>
+
+<body>
+    
+<section id="header">
+<h1>Module 6 Assignment</h1>
+<hr>
+</section>
+
+<select onchange="MenuChoice();" id="menu">
+    <option>Please select an option</option>
+    <option>Add Customer</option>
+    <option>Update Order Address</option>
+    <option>Delete Customer</option>
+</select>
+
+<section id="createnew">
+      <label>Please Enter a customer ID</label>
+    <input type = "text" id ="custid">
+    <label class= "example">The customer ID Should be 5 uppercase text characters.</label>
+    <br>
+    <label>Please enter a customer name</label>
+    <input type="text" id="custname">
+    <br>
+    <label>Please enter a customer city</label>
+    <input type="text" id="custcity">
+    <br>
+    <button onClick = "CreateCustomer();" id = "newcust">Add a New Customer</button>
+    <br>
+    <hr>
+    <br>
+    <label id ="result">The operation's result wil display here</label>
+</section>
+    
+<section id="update">
+    <label>Please enter an order number</label>
+    <input type="text" id="custorder">
+    <br>
+    <label>Please enter a ship-to name</label>
+    <input type = "text" id ="shipname">
+    <br>
+    <label>Please enter your street address</label>
+    <input type ="text" id="address">
+    <label>Please enter your city</label>
+    <input type = "text" id="custcity">
+    <label>Please enter your postal code</label>
+    <input type="text" id="custnum">
+    <br>
+    <button onClick="ChangeAddress();" id= "changeadd">Click to Change Address</button>
+    
+    <label id="result2">The change will display here</label>
+        
+</section>
+
+
+<section id="delete">
+    <label>Please enter the Customer ID you wish to delete</label>
+    <input type= "text" id="custid">
+        <br>
+    <button onClick="DeleteCustomer();" id="deletecust">Press to Confirm Deletion</button>
+    <br>
+    <label id="result3">The deletion confirmation will display here</label>
+    
+</section>
+    
+    
+</body>
+</html>
